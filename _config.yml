@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://cabbiepete.github.com
+title: Cabbiepete's Blog
+subtitle: Code, coffee and other things.
+author: Peter Simmons
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
@@ -26,7 +26,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: rdiscount
+markdown: maruku
 pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
@@ -36,7 +36,7 @@ excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of 
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html]
+default_asides: [asides/recent_posts.html, asides/twitter.html, asides/pinboard.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -49,7 +49,7 @@ default_asides: [asides/recent_posts.html, asides/twitter.html, asides/delicious
 # ----------------------- #
 
 # Twitter
-twitter_user:
+twitter_user: cabbiepete
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -69,7 +69,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: cabbiepetesblog
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-25329956-1
