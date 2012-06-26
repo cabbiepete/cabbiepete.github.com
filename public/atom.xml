@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Cabbiepete's Blog</title>
+  <link href="http://cabbiepete.github.com/atom.xml" rel="self"/>
+  <link href="http://cabbiepete.github.com/"/>
+  <updated>2011-08-26T00:02:31+12:00</updated>
+  <id>http://cabbiepete.github.com/</id>
+  <author>
+    <name>Peter Simmons</name>
+    
+  </author>
+
+  
+  <entry>
+    <title>Hello Octopress</title>
+    <link href="http://cabbiepete.github.com/blog/2011/08/25/hello-octopress/"/>
+    <updated>2011-08-25T23:48:00+12:00</updated>
+    <id>http://cabbiepete.github.com/blog/2011/08/25/hello-octopress</id>
+    <content type="html">&lt;p&gt;My first octopress post, a change here.&lt;/p&gt;</content>
+  </entry>
+  
+</feed>
